@@ -11,9 +11,9 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Introduce un numero: ");
-        double n = Double.parseDouble(br.readLine());
+        int n = Integer.parseInt(br.readLine());
 
-        if (0 == n % 2) {
+        if (n % 2 == 0) {
             System.out.println("El numero es par ");
 
         } else {
@@ -21,3 +21,53 @@ public class Main {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
